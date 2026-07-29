@@ -1,5 +1,4 @@
-## Ex. No: 5  VLAN Configuration Using a Managed Switch
-Date:
+Date: 29/07/2026
 ________________________________________
 # Objective
 To configure Virtual Local Area Networks (VLANs) on a managed switch and verify that hosts within the same VLAN can communicate while others cannot.
@@ -15,7 +14,7 @@ Description:<br>
 •	PC0 and PC1 are assigned to VLAN 10.<br>
 •	PC2 and PC3 are assigned to VLAN 20.<br>
 •	All PCs are connected to different ports on the same switch.<br>
-(Insert screenshot of your Packet Tracer setup here)<br>
+<img width="1108" height="525" alt="image" src="https://github.com/user-attachments/assets/1c4c137d-5d98-4f36-9760-daa68c30499f" />
 ________________________________________
 # IP Addressing Table
 Device	VLAN	IP Address	Subnet Mask	Port<br>
@@ -60,10 +59,12 @@ Switch(config-if-range)# switchport access vlan 20<br>
 Switch(config-if-range)# exit<br>
 ________________________________________
 # Output (Screenshots)
-•	VLAN configuration on switch<br>
-•	PC IP settings<br>
-•	Successful ping between PCs in the same VLAN<br>
-•	Failed ping between PCs in different VLANs<br>
+<img width="1536" height="815" alt="image" src="https://github.com/user-attachments/assets/672713fc-32e2-4c16-9b10-77e9f5507910" />
+<img width="1536" height="817" alt="image" src="https://github.com/user-attachments/assets/ca530d38-91ad-4ddc-9294-1d1d7b5640bc" />
+<img width="1536" height="815" alt="image" src="https://github.com/user-attachments/assets/36349a05-aa67-41f3-8803-b7b0d9f1f246" />
+<img width="1536" height="817" alt="image" src="https://github.com/user-attachments/assets/d214c153-d9a2-4fc6-9543-2684d597f33b" />
+
+
 ________________________________________
 # Result
 Successfully created and configured VLANs on a managed switch. Verified that only PCs within the same VLAN could communicate with each other.
