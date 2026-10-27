@@ -1,5 +1,4 @@
-Date: 29/07/2026
-________________________________________
+
 # Objective
 To configure Virtual Local Area Networks (VLANs) on a managed switch and verify that hosts within the same VLAN can communicate while others cannot.
 ________________________________________
@@ -14,7 +13,8 @@ Description:<br>
 •	PC0 and PC1 are assigned to VLAN 10.<br>
 •	PC2 and PC3 are assigned to VLAN 20.<br>
 •	All PCs are connected to different ports on the same switch.<br>
-<img width="1108" height="525" alt="image" src="https://github.com/user-attachments/assets/1c4c137d-5d98-4f36-9760-daa68c30499f" />
+<img width="1912" height="1065" alt="image" src="https://github.com/user-attachments/assets/971fc582-365a-4bcf-84da-228c2f022f25" />
+
 ________________________________________
 # IP Addressing Table
 Device	VLAN	IP Address	Subnet Mask	Port<br>
@@ -59,11 +59,12 @@ Switch(config-if-range)# switchport access vlan 20<br>
 Switch(config-if-range)# exit<br>
 ________________________________________
 # Output (Screenshots)
-<img width="1536" height="815" alt="image" src="https://github.com/user-attachments/assets/672713fc-32e2-4c16-9b10-77e9f5507910" />
-<img width="1536" height="817" alt="image" src="https://github.com/user-attachments/assets/ca530d38-91ad-4ddc-9294-1d1d7b5640bc" />
-<img width="1536" height="815" alt="image" src="https://github.com/user-attachments/assets/36349a05-aa67-41f3-8803-b7b0d9f1f246" />
-<img width="1536" height="817" alt="image" src="https://github.com/user-attachments/assets/d214c153-d9a2-4fc6-9543-2684d597f33b" />
 
+<img width="1912" height="701" alt="image" src="https://github.com/user-attachments/assets/4d4a3cd9-8806-4553-9024-608d19f1a6c3" />
+
+<img width="1917" height="792" alt="image" src="https://github.com/user-attachments/assets/cefc7cce-b07c-4d06-859e-ee506d62a455" />
+
+<img width="1912" height="807" alt="image" src="https://github.com/user-attachments/assets/22ac6144-e6b0-4653-a17b-1189c00c7beb" />
 
 ________________________________________
 # Result
